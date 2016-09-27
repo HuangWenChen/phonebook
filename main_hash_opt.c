@@ -48,7 +48,7 @@ int main(int argc, char *argv[])
 #endif
     /* create hash table*/
     hashTable *ht = createHashTable(TABLE_SIZE);
- 
+
     clock_gettime(CLOCK_REALTIME, &start);
     while (fgets(line, sizeof(line), fp)) {
         while (line[i] != '\0')

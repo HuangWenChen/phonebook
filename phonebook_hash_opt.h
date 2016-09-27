@@ -27,10 +27,10 @@ typedef struct __PHONE_BOOK_ENTRY {
     struct __PHONE_BOOK_ENTRY *pNext;
 } entry;
 
-typedef struct __PHONE_BOOK_HASH_TABLE{
+typedef struct __PHONE_BOOK_HASH_TABLE {
     unsigned int tableSize;
     entry **list;
-}hashTable;
+} hashTable;
 
 entry *findName(char lastname[], hashTable *ht);
 void append(char lastName[], hashTable *ht);
