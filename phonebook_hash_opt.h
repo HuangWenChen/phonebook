@@ -28,7 +28,6 @@ typedef struct __PHONE_BOOK_ENTRY {
 } entry;
 
 typedef struct __PHONE_BOOK_HASH_TABLE {
-    unsigned int tableSize;
     entry **list;
 } hashTable;
 
